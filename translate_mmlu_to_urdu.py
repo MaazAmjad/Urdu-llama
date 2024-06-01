@@ -37,7 +37,11 @@ for i in range(len(dataset['dev'])):
     translated_questions.append(D)
 
 
-with open("translated_data.json", "w") as final:
-    json.dump(translated_questions, final)
-    
+# Convert the list to JSON
+json_translated_questions = json.dumps(translated_questions, ensure_ascii=False).encode('utf8')
+
+# Write the JSON data to a file
+with open('translated_data.json', 'w', encoding='utf-8') as f:
+    f.write(json_translated_questions.decode())
+
 
