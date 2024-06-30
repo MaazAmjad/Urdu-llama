@@ -1,0 +1,9 @@
+contains batches of 1000
+    1001 translated_data_batch1_batch_1.csv
+    1003 translated_data_batch1_batch_2.csv
+    1002 translated_data_batch1_batch_3.csv
+    1009 translated_data_batch1_batch_4.csv
+    1001 translated_data_batch1_batch_5.csv
+    1001 translated_data_batch1_batch_6.csv
+     548 translated_data_batch1_batch_7.csv
+    6565 total
