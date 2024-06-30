@@ -7,3 +7,11 @@ contains batches of 1000
     1001 translated_data_batch1_batch_6.csv
      548 translated_data_batch1_batch_7.csv
     6565 total
+
+rmuthure-mn1:csv_files rmuthure$ wc -l *.csv
+     691 batch_30_v_part1.csv
+     783 batch_30_v_part2.csv
+     507 batch_30_v_part3.csv
+      32 batch_30_v_part4.csv
+    2013 total
+rmuthure-mn1:csv_files rmuthure$ 
